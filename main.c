@@ -3452,7 +3452,7 @@ int AE_Request (int idx, unsigned short type, int value)
 void write_reduce(int fd,int dev, int power) 
 {
  double value;	
- if (power < 0 || power > 450)	
+ if (power < 0 || power > 510)	
  	 value = 0;
  else 
  	 value = (double)power;	 
